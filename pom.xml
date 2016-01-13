@@ -85,4 +85,18 @@
       </snapshots>
     </repository>
   </repositories>
+
+  <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Releases</name>
+      <url>http://repo.meteorite.bi/content/repositories/alabs-release-local/</url>
+    </repository>
+    <snapshotRepository>
+      <id>deployment</id>
+      <name>Internal Snapshots</name>
+      <url>http://repo.meteorite.bi/content/repositories/alabs-snapshot-local/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
