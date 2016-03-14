@@ -2,4 +2,4 @@ Karaf Feature for Pentaho Data Integration.
 
 This is a work in progress, but does bootstrap.
 
-
+feature:install pdi-feature
